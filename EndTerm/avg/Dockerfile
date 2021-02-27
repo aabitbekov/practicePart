@@ -6,7 +6,7 @@ WORKDIR /app
 
 
 RUN go mod download
-RUN go build -o avg ./cmd/web
+RUN go build -o avg ./avg
 
 
 CMD ["./avg"]
