@@ -6,7 +6,7 @@ WORKDIR /app
 
 
 RUN go mod download
-RUN go build -o prime ./cmd/web
+RUN go build -o prime ./prime
 
 
 CMD ["./prime"]
